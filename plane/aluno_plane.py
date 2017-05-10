@@ -58,6 +58,9 @@ def compor_cena_ex5(c):
 
 
 def compor_cena_ex6(c):
+    glTranslate(0,1,0)
+    glRotate(-45, 0, 1, 0)
+    glRotate(45, 1, 0, 0)
     c.draw("plane")
 
 
