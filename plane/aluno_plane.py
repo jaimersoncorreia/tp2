@@ -22,26 +22,38 @@ from OpenGL.GL import *
 
 
 def compor_cena(c):
+
     c.draw("plane")
 
 
 def compor_cena_ex1(c):
+    glRotate(-45, 1, 0, 0)
+    glTranslate(2, 0, 0)
     c.draw("plane")
 
 
 def compor_cena_ex2(c):
+    glRotate(135, 0, 0, 1)
     c.draw("plane")
 
 
 def compor_cena_ex3(c):
+    glTranslate(-1, 0, 0)
+    glRotate(45,0,1,0)
     c.draw("plane")
 
 
 def compor_cena_ex4(c):
+    glTranslate(1,1,0)
+    glRotate(90, 1, 0, 0)
+    glRotate(180, 0, 1, 0)
     c.draw("plane")
 
 
 def compor_cena_ex5(c):
+    glTranslate(0, -1, 0)
+    glRotate(180, 0, 1, 0)
+    glRotate(90, 1, 0, 0)
     c.draw("plane")
 
 
